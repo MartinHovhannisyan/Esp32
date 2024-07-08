@@ -1,4 +1,8 @@
 
+#include <WiFi.h>
+#include "esp_wifi.h"
+#include "esp_wifi_types.h"
+
 #if defined(LANGUAGE_FR_FR) || defined(LANGUAGE_PT_BR)
 const uint8_t channels[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
 #else 
